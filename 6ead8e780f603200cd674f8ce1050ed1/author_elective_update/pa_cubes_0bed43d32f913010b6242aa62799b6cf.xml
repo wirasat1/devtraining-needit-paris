@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="DELETE">
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <conditions table="x_58872_needit_needit">u_when_neededONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/>
+        </conditions>
+        <description>NeedIt requests due this month</description>
+        <facts_table>x_58872_needit_needit</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>40</frequency>
+        <max_record_fetch_count>50000</max_record_fetch_count>
+        <name>NeedIt.ThisMonth</name>
+        <override_record_collection>false</override_record_collection>
+        <report_source/>
+        <report_source_updated_at/>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-17 20:14:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bed43d32f913010b6242aa62799b6cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt.ThisMonth</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_cubes_0bed43d32f913010b6242aa62799b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-17 20:14:10</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="DELETE" query="documentkey=0bed43d32f913010b6242aa62799b6cf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>d343d193dbccbac489535d00cf96199d</instance_id>
+        <instance_name>dev27476</instance_name>
+        <name>pa_cubes_0bed43d32f913010b6242aa62799b6cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes"><pa_cubes action="INSERT_OR_UPDATE"><benchmarking>false</benchmarking><calendar>standard</calendar><calendar_freq/><conditions table="x_58872_needit_needit">u_when_neededONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/></conditions><description>NeedIt requests due this month</description><facts_table>x_58872_needit_needit</facts_table><facts_table_pk/><facts_table_pktable/><facts_table_pkview/><frequency>40</frequency><max_record_fetch_count>50000</max_record_fetch_count><name>NeedIt.ThisMonth</name><override_record_collection>false</override_record_collection><report_source/><report_source_updated_at/><sys_class_name>pa_cubes</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-17 20:14:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0bed43d32f913010b6242aa62799b6cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt.ThisMonth</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>pa_cubes_0bed43d32f913010b6242aa62799b6cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-17 20:14:10</sys_updated_on></pa_cubes><sys_translated_text action="delete_multiple" query="documentkey=0bed43d32f913010b6242aa62799b6cf"/></record_update>]]></payload>
+        <payload_hash>829013105</payload_hash>
+        <record_name>NeedIt.ThisMonth</record_name>
+        <reverted_from/>
+        <source>be53f2d72f113010b6242aa62799b631</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-17 20:14:10</sys_created_on>
+        <sys_id>4bce0f9b2f913010b6242aa62799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ab61ad6e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-17 20:14:10</sys_updated_on>
+        <type>Indicator Source</type>
+        <update_guid>83ce0f9b65913010e033aac3ac502ee5</update_guid>
+        <update_guid_history>83ce0f9b65913010e033aac3ac502ee5:829013105</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt.ThisMonth">536b1c632f953010b6242aa62799b62e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>wsiddiqi</sys_created_by>
+        <sys_created_on>2021-07-18 01:48:57</sys_created_on>
+        <sys_db_object display_value="" name="pa_cubes">pa_cubes</sys_db_object>
+        <sys_id>2a9ac104025f48cabe4201dd5f2fb3c4</sys_id>
+        <sys_metadata>0bed43d32f913010b6242aa62799b6cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt.ThisMonth</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>pa_cubes_0bed43d32f913010b6242aa62799b6cf</sys_update_name>
+        <sys_update_version display_value="pa_cubes_0bed43d32f913010b6242aa62799b6cf">4bce0f9b2f913010b6242aa62799b6e5</sys_update_version>
+        <sys_updated_by>wsiddiqi</sys_updated_by>
+        <sys_updated_on>2021-07-18 01:48:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
