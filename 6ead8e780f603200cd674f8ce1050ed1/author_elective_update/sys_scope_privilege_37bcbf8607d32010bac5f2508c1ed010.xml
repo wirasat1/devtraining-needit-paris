@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>wsiddiqi</sys_created_by>
+        <sys_created_on>2021-04-05 16:16:57</sys_created_on>
+        <sys_id>37bcbf8607d32010bac5f2508c1ed010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableServiceResultBuilder.setBody</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_37bcbf8607d32010bac5f2508c1ed010</sys_update_name>
+        <sys_updated_by>wsiddiqi</sys_updated_by>
+        <sys_updated_on>2021-04-05 16:16:57</sys_updated_on>
+        <target_name>ScriptableServiceResultBuilder.setBody</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8145274cdb197f400b9d21c40596196b</instance_id>
+        <instance_name>dev84913</instance_name>
+        <name>sys_scope_privilege_37bcbf8607d32010bac5f2508c1ed010</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>wsiddiqi</sys_created_by><sys_created_on>2021-04-05 16:16:57</sys_created_on><sys_id>37bcbf8607d32010bac5f2508c1ed010</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableServiceResultBuilder.setBody</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_scope_privilege_37bcbf8607d32010bac5f2508c1ed010</sys_update_name><sys_updated_by>wsiddiqi</sys_updated_by><sys_updated_on>2021-04-05 16:16:57</sys_updated_on><target_name>ScriptableServiceResultBuilder.setBody</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-322149503</payload_hash>
+        <record_name>ScriptableServiceResultBuilder.setBody</record_name>
+        <reverted_from/>
+        <source>f1fec203db5f1010814ea0f2ca961936</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>wsiddiqi</sys_created_by>
+        <sys_created_on>2021-04-05 16:16:57</sys_created_on>
+        <sys_id>bbbcbf8607d32010bac5f2508c1ed011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178a2d2a5a00000001</sys_recorded_at>
+        <sys_updated_by>wsiddiqi</sys_updated_by>
+        <sys_updated_on>2021-04-05 16:16:57</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>f3bcbf863ed320108883f16a125dba11</update_guid>
+        <update_guid_history>f3bcbf863ed320108883f16a125dba11:-322149503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>wsiddiqi</sys_created_by>
+        <sys_created_on>2021-08-23 22:27:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>e40679d44b7748689ee2c4feb87661e9</sys_id>
+        <sys_metadata>37bcbf8607d32010bac5f2508c1ed010</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableServiceResultBuilder.setBody</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_37bcbf8607d32010bac5f2508c1ed010</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_37bcbf8607d32010bac5f2508c1ed010">bbbcbf8607d32010bac5f2508c1ed011</sys_update_version>
+        <sys_updated_by>wsiddiqi</sys_updated_by>
+        <sys_updated_on>2021-08-23 22:27:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

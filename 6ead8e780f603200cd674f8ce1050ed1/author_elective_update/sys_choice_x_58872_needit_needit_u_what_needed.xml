@@ -5,56 +5,92 @@
             <name>x_58872_needit_needit</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-31 12:25:55</sys_created_on>
-            <sys_id>69d4361b2f113010b6242aa62799b688</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
+            <sys_id>b901d61307423010bac5f2508c1ed035</sys_id>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>u_what_needed</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_choice_x_58872_needit_needit_u_what_needed</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:55</sys_updated_on>
+            <sys_updated_on>2017-02-16 00:07:09</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Legal 1</label>
+            <label>Human Resources 1</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-31 12:25:55</sys_created_on>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c2f976c61b340010411dea8bbc4bcbb4</sys_id>
+            <sys_id>6ccad1710fa03200cd674f8ce1050e06</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:55</sys_updated_on>
-            <value>legal1</value>
+            <sys_updated_on>2017-01-26 19:39:58</sys_updated_on>
+            <value>hr1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Your Department Choice 1</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4cad1710fa03200cd674f8ce1050e10</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-08 22:44:35</sys_updated_on>
+            <value>your_choice1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Legal 2</label>
+            <label>Human Resources 2</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-31 12:25:55</sys_created_on>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>42f976c61b340010411dea8bbc4bcbb6</sys_id>
+            <sys_id>68cad1710fa03200cd674f8ce1050e08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:55</sys_updated_on>
-            <value>legal2</value>
+            <sys_updated_on>2017-01-26 19:39:58</sys_updated_on>
+            <value>hr2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Your Department Choice 2</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eccad1710fa03200cd674f8ce1050e11</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-08 22:44:35</sys_updated_on>
+            <value>your_choice2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -65,15 +101,14 @@
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>2</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-31 12:25:55</sys_created_on>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0ef976c61b340010411dea8bbc4bcbb7</sys_id>
+            <sys_id>a0cad1710fa03200cd674f8ce1050e0a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:55</sys_updated_on>
+            <sys_updated_on>2017-01-26 19:39:58</sys_updated_on>
             <value>facilities1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -85,15 +120,14 @@
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>3</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-31 12:25:55</sys_created_on>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c6f976c61b340010411dea8bbc4bcbb9</sys_id>
+            <sys_id>e8cad1710fa03200cd674f8ce1050e0b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:55</sys_updated_on>
+            <sys_updated_on>2017-01-26 19:39:58</sys_updated_on>
             <value>facilities2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -101,40 +135,38 @@
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Human Resources 1</label>
+            <label>Legal 1</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>4</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-31 12:25:55</sys_created_on>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>82f976c61b340010411dea8bbc4bcbbb</sys_id>
+            <sys_id>24cad1710fa03200cd674f8ce1050e0d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:55</sys_updated_on>
-            <value>hr1</value>
+            <sys_updated_on>2017-01-26 19:39:58</sys_updated_on>
+            <value>legal1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Human Resources 2</label>
+            <label>Legal 2</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>5</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-31 12:25:55</sys_created_on>
+            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4ef976c61b340010411dea8bbc4bcbbc</sys_id>
+            <sys_id>6ccad1710fa03200cd674f8ce1050e0e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:55</sys_updated_on>
-            <value>hr2</value>
+            <sys_updated_on>2017-01-26 19:39:58</sys_updated_on>
+            <value>legal2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -145,36 +177,15 @@
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>6</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-31 12:25:55</sys_created_on>
+            <sys_created_on>2017-02-16 00:07:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0af976c61b340010411dea8bbc4bcbbe</sys_id>
+            <sys_id>49b7dd149f013200bde5f79ff57fcfa1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:55</sys_updated_on>
+            <sys_updated_on>2017-02-16 00:07:09</sys_updated_on>
             <value>other</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Finance</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>7</sequence>
-            <synonyms/>
-            <sys_created_by>wsiddiqi</sys_created_by>
-            <sys_created_on>2021-07-18 19:50:56</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>d092dc372f517010b6242aa62799b6c6</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>wsiddiqi</sys_updated_by>
-            <sys_updated_on>2021-07-18 19:55:17</sys_updated_on>
-            <value>finance</value>
         </sys_choice>
     </sys_choice>
 </record_update>

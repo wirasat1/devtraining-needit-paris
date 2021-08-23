@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description>Documentation for the NeedIt App API</description>
+        <direct>false</direct>
+        <endpoint>x_58872_needit_needit_api_documentation.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<h1 style="color: #5e9ca0;"><span style="color: #000080;">NeedIt Scripted API</span></h1>
+The NeedIt Scripted API provides methods for interacting with data from the NeedIt application including: 
+<ul>
+<li>GET ni_getinfo: Get aggregate (count) information for records for a specific user from the NeedIt table.  The records are grouped by Request type.  The response includes the total number of NeedIt records for the user (integer), the count of NeedIt records for each Request type (array of objects), and user information (object).</li>
+</ul>
+</j:jelly>]]></html>
+        <name>needit_api_documentation</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>wsiddiqi</sys_created_by>
+        <sys_created_on>2021-04-05 02:30:42</sys_created_on>
+        <sys_id>92febc8a071fa010bac5f2508c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>needit_api_documentation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_page_92febc8a071fa010bac5f2508c1ed045</sys_update_name>
+        <sys_updated_by>wsiddiqi</sys_updated_by>
+        <sys_updated_on>2021-04-05 02:30:42</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8145274cdb197f400b9d21c40596196b</instance_id>
+        <instance_name>dev84913</instance_name>
+        <name>sys_ui_page_92febc8a071fa010bac5f2508c1ed045</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;Documentation for the NeedIt App API&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_58872_needit_needit_api_documentation.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;h1 style="color: #5e9ca0;"&gt;&lt;span style="color: #000080;"&gt;NeedIt Scripted API&lt;/span&gt;&lt;/h1&gt;
+The NeedIt Scripted API provides methods for interacting with data from the NeedIt application including: 
+&lt;ul&gt;
+&lt;li&gt;GET ni_getinfo: Get aggregate (count) information for records for a specific user from the NeedIt table.  The records are grouped by Request type.  The response includes the total number of NeedIt records for the user (integer), the count of NeedIt records for each Request type (array of objects), and user information (object).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;needit_api_documentation&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;wsiddiqi&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-05 02:30:42&lt;/sys_created_on&gt;&lt;sys_id&gt;92febc8a071fa010bac5f2508c1ed045&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;needit_api_documentation&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_92febc8a071fa010bac5f2508c1ed045&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;wsiddiqi&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-05 02:30:42&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1278230889</payload_hash>
+        <record_name>needit_api_documentation</record_name>
+        <reverted_from/>
+        <source>f1fec203db5f1010814ea0f2ca961936</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>wsiddiqi</sys_created_by>
+        <sys_created_on>2021-04-05 02:30:42</sys_created_on>
+        <sys_id>28af784a071fa010bac5f2508c1ed05a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1789fde31a50000001</sys_recorded_at>
+        <sys_updated_by>wsiddiqi</sys_updated_by>
+        <sys_updated_on>2021-04-05 02:30:42</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>60af784a541fa0104953261512e4745a</update_guid>
+        <update_guid_history>60af784a541fa0104953261512e4745a:1278230889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>wsiddiqi</sys_created_by>
+        <sys_created_on>2021-08-23 22:27:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>028444e07e24409780c8978eff2a9d89</sys_id>
+        <sys_metadata>92febc8a071fa010bac5f2508c1ed045</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>needit_api_documentation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_page_92febc8a071fa010bac5f2508c1ed045</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_92febc8a071fa010bac5f2508c1ed045">28af784a071fa010bac5f2508c1ed05a</sys_update_version>
+        <sys_updated_by>wsiddiqi</sys_updated_by>
+        <sys_updated_on>2021-08-23 22:27:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
